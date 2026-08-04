@@ -64,3 +64,10 @@ public struct MetricPayload_21270: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 27870
 }
+
+/// State representation node 17664
+public struct MetricPayload_613: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 8811
+}
