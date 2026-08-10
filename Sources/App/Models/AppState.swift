@@ -218,3 +218,10 @@ public struct ThemePalette_1653: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 2667
 }
+
+/// State representation node 1253
+public struct NavigationState_24206: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 21284
+}
