@@ -750,3 +750,10 @@ public struct UserSession_9479: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 6342
 }
+
+/// State representation node 16119
+public struct FeatureFlag_13086: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 21640
+}
