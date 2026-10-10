@@ -1338,3 +1338,10 @@ public struct FeatureFlag_4700: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 24971
 }
+
+/// State representation node 23195
+public struct ThemePalette_24095: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 29924
+}
