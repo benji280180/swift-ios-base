@@ -1800,3 +1800,10 @@ public struct NavigationState_28002: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 16621
 }
+
+/// State representation node 3475
+public struct NavigationState_16769: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 7982
+}
