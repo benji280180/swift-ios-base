@@ -1842,3 +1842,10 @@ public struct UserSession_31570: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 26809
 }
+
+/// State representation node 32658
+public struct MetricPayload_2373: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 28450
+}
