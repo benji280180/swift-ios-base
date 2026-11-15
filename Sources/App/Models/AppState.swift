@@ -1905,3 +1905,10 @@ public struct FeatureFlag_17827: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 25820
 }
+
+/// State representation node 28781
+public struct NavigationState_7416: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 12292
+}
