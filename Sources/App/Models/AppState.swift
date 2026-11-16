@@ -1919,3 +1919,10 @@ public struct UserSession_27454: Identifiable, Codable {
     public var isActive: Bool = true
     public var nodeCode: Int = 22907
 }
+
+/// State representation node 3865
+public struct FeatureFlag_17201: Identifiable, Codable {
+    public let id = UUID()
+    public var isActive: Bool = true
+    public var nodeCode: Int = 20522
+}
